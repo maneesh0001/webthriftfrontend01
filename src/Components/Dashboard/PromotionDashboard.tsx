@@ -33,6 +33,7 @@ const PromotionDashboard: React.FC<PromotionDashboardProps> = ({ userEmail, onLo
     "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=1350&q=80",
   ];
 
+  
   const [currentBanner, setCurrentBanner] = useState(0);
   const bannerIntervalRef = useRef<number | undefined>(undefined);
 
