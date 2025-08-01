@@ -8,7 +8,7 @@ import userService from '../../../services/userService'; // Adjust path accordin
 const UserPage = () => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
-
+  
   useEffect(() => {
     setLoading(true);
     userService.getUsers()
@@ -39,10 +39,7 @@ const UserPage = () => {
           </div>
           <div className="flex items-center gap-2">
             
-            <button className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-md shadow-sm text-sm font-medium hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-              <Plus size={16} />
-              <span>Add User</span>
-            </button>
+            
           </div>
         </header>
 
