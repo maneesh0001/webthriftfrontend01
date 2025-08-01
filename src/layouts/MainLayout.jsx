@@ -9,6 +9,9 @@ export default function MainLayout({ children }) {
       <main>
         {children ? children : <HomePage />}
       </main>
+    {/* add a footer here  */}
     </div>
   );
 }
+
+
