@@ -14,7 +14,7 @@ const categories = [
 ];
 
 const items = [
-    { category: "Men's Clothes", title: "Mens T-Shirt", img: "https://i.pinimg.com/736x/04/08/ab/0408ab6d02767e2d827f83101bfe609d.jpg", price: 19, discount: 20 },
+    // { category: "Men's Clothes", title: "Mens T-Shirt", img: "https://i.pinimg.com/736x/04/08/ab/0408ab6d02767e2d827f83101bfe609d.jpg", price: 19, discount: 20 },
     { category: "Electronics", title: "Laptop", img: "https://i.pinimg.com/736x/fe/f7/b3/fef7b3cbaeb59afc974ab04dd20741e6.jpg", price: 40, discount: 30 },
     { category: "Sports", title: "Air Jordan", img: "https://i.pinimg.com/736x/3a/62/1f/3a621f33ad2669f31eac898223a906d0.jpg", price: 150, discount: 15 },
     { category: "Women's Clothes", title: "Redefined Dress", img: "https://i.pinimg.com/736x/9d/ff/4b/9dff4be241c4c34b63de5737194f8779.jpg", price: 70, discount: 10 },
